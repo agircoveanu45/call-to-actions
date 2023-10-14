@@ -10,6 +10,11 @@
   --yellow: #f8d254;
   --green: #a0cd9e;
 
+  --logo-url: url(https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-4.png);
+  --photo-url: url(https://images.unsplash.com/photo-1538983314533-980fb0ae24d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80);
+  --background-url: url(https://c0.wallpaperflare.com/preview/665/924/1/mood-trentino-landscape-mountain.jpg);
+  --avatar-url: url(https://t4.ftcdn.net/jpg/02/19/63/31/360_F_219633151_BW6TD8D1EA9OqZu4JgdmeJGg4JBaiAHj.jpg);
+
   color: #000;
   /* Text */
   font-family: Inter;
@@ -24,6 +29,7 @@
 html {
   height: 100%;
   width: 100%;
+  background: var(--background-url) no-repeat center center fixed;
 }
 
 h1 {
@@ -71,7 +77,8 @@ button {
   background: var(--dark-green);
   color: var(--white);
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
   background-color: #283A27;
 }
 
@@ -88,11 +95,13 @@ button {
   color: var(--dark-green);
 
 }
-.btn-secondary:hover{
+
+.btn-secondary:hover {
   border-color: #213220;
-  color:#213220;
+  color: #213220;
 }
-.btn-disabled{
+
+.btn-disabled {
   opacity: 0.6;
   cursor: not-allowed;
 }
