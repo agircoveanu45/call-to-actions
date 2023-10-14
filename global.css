@@ -24,9 +24,12 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 22px;
-  /* 137.5% */
+  line-height: normal;
 
+}
+
+body {
+  margin: 0;
 }
 
 /*definim stilul h1*/
@@ -35,6 +38,7 @@ h1 {
   font-weight: 600;
 
 }
+
 /*definim stilul pentru text ce va fi folosit la meniuri*/
 .meniu.title {
   font-size: 32px;
@@ -56,7 +60,7 @@ button {
   font-size: 18px;
   font-weight: 500;
   padding: 13px 25px;
-  
+
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -66,12 +70,12 @@ button {
 }
 
 .btn-primary {
+  border: 0;
   background: var(--dark-green);
   color: var(--white);
 }
 
 .btn-primary:hover {
-  border: 0;
   background-color: #283A27;
 }
 
@@ -103,6 +107,7 @@ button {
   opacity: 0.6;
   cursor: not-allowed;
 }
+
 /*stilul input default*/
 input {
   display: flex;
@@ -119,6 +124,7 @@ input {
 input:hover {
   border: 2px solid var(--green);
 }
+
 /* input cu buton in dreapta
    <div class="input-button">
    <input />
